@@ -1,0 +1,26 @@
+{
+  "name": "Jan Aushadhi PMBJP",
+  "short_name": "Jan Aushadhi",
+  "description": "Government of India PMBJP Official Generic Medicine Equivalent Finder & Savings Calculator",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#FFFFFF",
+  "theme_color": "#000080",
+  "categories": ["medical", "health", "government"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
