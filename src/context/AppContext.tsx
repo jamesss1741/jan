@@ -163,7 +163,7 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
               medicine: med,
               quantityStrips: item.qty || 1,
               dosagePattern: item.dosage || '1-0-1',
-              selectedBrandAlternative: med.brandedAlternatives[0]
+              selectedBrandAlternative: med.brandedAlternatives?.[0]
             });
           }
         }
