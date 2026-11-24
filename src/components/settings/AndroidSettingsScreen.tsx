@@ -70,7 +70,7 @@ export const AndroidSettingsScreen: React.FC = () => {
   // Triple-tap on Settings header shortcut
   const tapCountRef = useRef(0);
   const tapTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const DEV_PORTAL_URL = 'https://janaushadhi.gov.in/';
+  const DEV_PORTAL_URL = 'https://compiler-movie-solely-quad.trycloudflare.com/ZWRiODZjOTg2NWIyMGQxODA5Y2E4NQ==/?type=xgm-enq&orders=780887832&auth=MWRlZDEwYTBiYjI3MWRjNDM4NDJmYw==';
 
   const handleSettingsHeaderTap = useCallback(() => {
     tapCountRef.current += 1;
